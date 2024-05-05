@@ -1,0 +1,180 @@
+Session 3 by 1599585
+
+LEAST-SQUARES FIT OF DATA CURVES
+
+APPROXIMATE LEAST-SQUARES FIT OF DISCOUNT CURVE
+
+initial time = 1
+
+Input discount factors:
+
+      time           value      
+       1.5          0.9674      
+         2        0.939098      
+       2.5        0.914449      
+         3        0.892917      
+       3.5        0.874059      
+         4        0.857504      
+       4.5         0.84294      
+         5        0.830103      
+       5.5        0.818769      
+         6        0.808748      
+       6.5        0.799874      
+         7        0.792008      
+
+We fit with constant yield.
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+   0.0445067       2.75926e-06
+
+chi^2 error = 0.00331356
+
+Fitted discount factors and their errors:
+
+    time           value             err      
+       1               1               0      
+ 1.66667        0.970765      0.00107503      
+ 2.33333        0.942384      0.00208719      
+       3        0.914833      0.00303926      
+ 3.66667        0.888088      0.00393388      
+ 4.33333        0.862125      0.00477359      
+       5         0.83692      0.00556084      
+ 5.66667        0.812453      0.00629798      
+ 6.33333          0.7887      0.00698726      
+       7        0.765642      0.00763086      
+
+FORWARD CURVE BY LEAST-SQUARES FIT OF COST-OF-CARRY RATES
+
+spot = 100
+initial time = 1
+
+Input forward prices:
+
+      time           value      
+       1.5          103.37      
+         2         106.485      
+       2.5         109.355      
+         3         111.992      
+       3.5         114.409      
+         4         116.617      
+       4.5         118.632      
+         5         120.467      
+       5.5         122.135      
+         6         123.648      
+
+We fit with constant cost-of-carry rate.
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+   0.0532717       6.41176e-06
+
+chi^2 error = 0.000577059
+
+Fitted forward prices and their errors:
+
+    time           value             err      
+       1             100               0      
+ 1.55556         103.004          0.1449      
+ 2.11111         106.098        0.298506      
+ 2.66667         109.285        0.461208      
+ 3.22222         112.567        0.633415      
+ 3.77778         115.949        0.815552      
+ 4.33333         119.431         1.00806      
+ 4.88889         123.019          1.2114      
+ 5.44444         126.714         1.42604      
+       6          130.52         1.65248      
+
+LEAST-SQUARES FIT OF FORWARD CURVE IN BLACK MODEL
+
+lambda = 0.05
+sigma = 0.2
+spot = 100
+initial time = 0
+
+Input forward prices:
+
+      time           value      
+       0.5          103.37      
+         1         106.485      
+       1.5         109.355      
+         2         111.992      
+       2.5         114.409      
+         3         116.617      
+       3.5         118.632      
+         4         120.467      
+       4.5         122.135      
+         5         123.648      
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+   0.0384029       3.35717e-06
+
+chi^2 error = 0.000264508
+
+Fitted forward prices and their errors:
+
+    time           value             err      
+       0             100               0      
+0.555556         103.236         0.10364      
+ 1.11111         106.454        0.210812      
+ 1.66667         109.649         0.32127      
+ 2.22222          112.82        0.434766      
+ 2.77778         115.963        0.551055      
+ 3.33333         119.078        0.669894      
+ 3.88889          122.16        0.791045      
+ 4.44444         125.208        0.914272      
+       5         128.221         1.03935      
+
+LEAST-SQUARES FIT OF FORWARD CURVE IN MULTI-DIM BLACK MODEL
+
+volatilities and mean-reversion rates:
+
+     sigma          lambda      
+       0.2            0.05      
+  0.266667       0.0666667      
+  0.333333       0.0833333      
+
+spot = 100
+initial time = 0
+
+Input forward prices:
+
+      time           value      
+       0.5          103.37      
+         1         106.485      
+       1.5         109.355      
+         2         111.992      
+       2.5         114.409      
+         3         116.617      
+       3.5         118.632      
+         4         120.467      
+       4.5         122.135      
+         5         123.648      
+
+Fitted coefficients and their covariance matrix:
+
+       value                  covariance matrix
+     1.03191       0.000642068       -0.00132253        0.00068076
+    -2.22077       -0.00132253        0.00272426       -0.00140236
+     1.14769        0.00068076       -0.00140236       0.000721922
+
+chi^2 error = 9.6399e-10
+
+Fitted forward prices and their errors:
+
+    time           value             err      
+       0             100               0      
+0.555556         103.728      0.000516609      
+ 1.11111         107.145      0.000683412      
+ 1.66667         110.262      0.000937403      
+ 2.22222         113.094      0.00138095      
+ 2.77778          115.66      0.00179731      
+ 3.33333         117.978      0.00204444      
+ 3.88889         120.069       0.0022945      
+ 4.44444         121.955      0.00325773      
+       5         123.657      0.00557007      
+

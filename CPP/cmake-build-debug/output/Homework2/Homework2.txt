@@ -1,0 +1,130 @@
+Homework 2 by 1599585
+
+ROOT FINDING
+
+YIELD TO MATURITY FOR A CASH FLOW
+
+initial price = 9.87103
+initial time = 1
+
+cash flow:
+
+      time           value      
+   1.91667               1      
+   2.33333              -2      
+      2.75               3      
+   3.16667               5      
+   3.58333               6      
+         4              -2      
+
+lower bound = 0
+upper bound = 0.2
+relative error for YTM = 1e-05
+absolute error for YTM = 1e-07
+method = brent
+
+YTM = 0.05
+error = 1.48876e-10
+
+FORWARD YIELD TO MATURITY FOR A CASH FLOW
+
+initial time = 1
+
+cash flow:
+
+      time           value      
+   1.91667               1      
+   2.33333              -2      
+      2.75              -3      
+   3.16667               5      
+   3.58333               6      
+         4               2      
+
+lower bound = 0
+upper bound = 0.2
+relative error for YTM = 1e-05
+absolute error for YTM = 1e-07
+method = brent
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1       0.0687845      
+ 1.33003       0.0703874      
+ 1.66007       0.0719757      
+  1.9901       0.0734958      
+ 2.32013       0.0747763      
+ 2.65017       0.0762825      
+  2.9802       0.0781384      
+ 3.31023       0.0804025      
+ 3.64026       0.0832013      
+  3.9703       0.0848515      
+
+INTERPOLATION OF DATA CURVES
+
+VOLATILITY CURVE BY INTERPOLATION OF VARIANCE CURVE
+
+initial time = 1
+
+Input volatilities:
+
+      time      volatility      
+       1.5       0.0373058      
+         2       0.0398669      
+       2.5       0.0427134      
+         3       0.0458791      
+       3.5       0.0494018      
+         4       0.0533233      
+       4.5       0.0576907      
+         5       0.0625563      
+       5.5       0.0679787      
+         6       0.0740231      
+
+We use Steffen interpolation
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1       0.0373058      
+ 1.55556       0.0375916      
+ 2.11111       0.0404834      
+ 2.66667        0.043736      
+ 3.22222       0.0473976      
+ 3.77778       0.0515228      
+ 4.33333       0.0561731      
+ 4.88889       0.0614186      
+ 5.44444       0.0673386      
+       6       0.0740231      
+
+VOLATILITY CURVE BY STEFFEN INTERPOLATION OF VARIANCE CURVE
+
+initial time = 1
+
+Input volatilities:
+
+      time      volatility      
+       1.5       0.0373058      
+         2       0.0398669      
+       2.5       0.0427134      
+         3       0.0458791      
+       3.5       0.0494018      
+         4       0.0533233      
+       4.5       0.0576907      
+         5       0.0625563      
+       5.5       0.0679787      
+         6       0.0740231      
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1       0.0373058      
+ 1.55556       0.0375916      
+ 2.11111       0.0404834      
+ 2.66667        0.043736      
+ 3.22222       0.0473976      
+ 3.77778       0.0515228      
+ 4.33333       0.0561731      
+ 4.88889       0.0614186      
+ 5.44444       0.0673386      
+       6       0.0740231      
+

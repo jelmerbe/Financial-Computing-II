@@ -1,0 +1,163 @@
+Session 4 by 1599585
+
+OPTIONS ON A SINGLE STOCK IN BLACK MODEL
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+DOWN-AND-OUT CALL OPTION IN ASSET MODEL
+
+strike = 100
+maturity = 1
+lower barrier = 90
+
+barrier times:
+[0] = 0.09
+[1] = 0.18
+[2] = 0.27
+[3] = 0.36
+[4] = 0.45
+[5] = 0.54
+[6] = 0.63
+[7] = 0.72
+[8] = 0.81
+[9] = 0.9
+
+RISK REPORT: 
+
+price = 9.214
+delta = 70
+one percent gamma = 1.2
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           3.548
+ 93.0531           4.551
+ 94.7432           5.637
+  96.464           6.785
+ 98.2161           7.979
+     100           9.214
+ 101.816           10.49
+ 103.666           11.81
+ 105.549           13.18
+ 107.466            14.6
+ 109.417           16.07
+
+CALL ON FORWARD PRICE IN ASSET MODEL
+
+strike = 100
+maturity of call = 1
+maturity of forward = 1.5
+
+RISK REPORT: 
+
+price = 11.53
+delta = 64
+one percent gamma = 2.2
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931            6.65
+ 93.0531           7.487
+ 94.7432           8.393
+  96.464           9.369
+ 98.2161           10.42
+     100           11.53
+ 101.816           12.72
+ 103.666           13.99
+ 105.549           15.32
+ 107.466           16.72
+ 109.417           18.19
+
+AMERICAN BUTTERFLY OPTION IN ASSET MODEL
+
+strike = 100
+strike step = 5
+
+exercise times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 2.535
+delta = -1.9
+one percent gamma = -1.5
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           2.168
+ 93.0531           2.312
+ 94.7432           2.429
+  96.464           2.509
+ 98.2161           2.546
+     100           2.535
+ 101.816           2.478
+ 103.666           2.376
+ 105.549           2.239
+ 107.466           2.074
+ 109.417           1.893
+
+CORRIDOR OPTION IN ASSET MODEL
+
+notional = 100
+lower barrier = 95
+upper barrier = 110
+
+barrier times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 39.21
+delta = 25.3
+one percent gamma = -23
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           29.62
+ 93.0531           32.39
+ 94.7432           34.86
+  96.464           36.91
+ 98.2161           38.39
+     100           39.21
+ 101.816           39.29
+ 103.666           38.63
+ 105.549           37.27
+ 107.466           35.28
+ 109.417            32.8
+

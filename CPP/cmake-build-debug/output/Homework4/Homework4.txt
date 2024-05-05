@@ -1,0 +1,172 @@
+Homework 4 by 1599585
+
+OPTIONS ON A SINGLE STOCK IN BLACK MODEL
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+EUROPEAN STRADDLE OPTION IN ASSET MODEL
+
+strike = 100
+maturity = 1
+
+RISK REPORT: 
+
+price = 15.35
+delta = 25.8
+one percent gamma = 4
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           14.47
+ 93.0531           14.42
+ 94.7432           14.48
+  96.464           14.65
+ 98.2161           14.94
+     100           15.35
+ 101.816           15.87
+ 103.666           16.51
+ 105.549           17.27
+ 107.466           18.15
+ 109.417           19.14
+
+AMERICAN CALL ON FORWARD IN ASSET MODEL
+
+forward price = 100
+time to maturity = 0.5
+
+exercise times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 10.66
+delta = 62
+one percent gamma = 2.2
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           5.975
+ 93.0531            6.77
+ 94.7432           7.635
+  96.464           8.571
+ 98.2161           9.578
+     100           10.66
+ 101.816           11.81
+ 103.666           13.03
+ 105.549           14.33
+ 107.466           15.69
+ 109.417           17.12
+
+DOWN-AND-REBATE OPTION IN ASSET MODEL
+
+lower barrier = 90
+notional = 100
+
+barrier times:
+[0] = 0.09
+[1] = 0.18
+[2] = 0.27
+[3] = 0.36
+[4] = 0.45
+[5] = 0.54
+[6] = 0.63
+[7] = 0.72
+[8] = 0.81
+[9] = 0.9
+
+RISK REPORT: 
+
+price = 40.27
+delta = -311
+one percent gamma = 16
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           72.75
+ 93.0531           66.01
+ 94.7432           59.15
+  96.464           52.46
+ 98.2161           46.13
+     100           40.27
+ 101.816           34.92
+ 103.666            30.1
+ 105.549           25.78
+ 107.466           21.94
+ 109.417           18.55
+
+UP-AND-IN AMERICAN PUT OPTION IN ASSET MODEL
+
+strike = 100
+upper barrier = 110
+
+exercise times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+barrier times:
+[0] = 0.09
+[1] = 0.18
+[2] = 0.27
+[3] = 0.36
+[4] = 0.45
+[5] = 0.54
+[6] = 0.63
+[7] = 0.72
+[8] = 0.81
+[9] = 0.9
+
+RISK REPORT: 
+
+price = 0.6187
+delta = 6.4
+one percent gamma = 0.5
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931          0.2239
+ 93.0531          0.2778
+ 94.7432          0.3426
+  96.464          0.4199
+ 98.2161          0.5116
+     100          0.6187
+ 101.816          0.7402
+ 103.666          0.8722
+ 105.549           1.007
+ 107.466           1.131
+ 109.417           1.231
+

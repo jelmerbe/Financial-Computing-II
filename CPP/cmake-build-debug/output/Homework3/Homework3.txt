@@ -1,0 +1,171 @@
+Homework 3 by 1599585
+
+LEAST SQUARES FIT OF DATA CURVES
+
+LEAST-SQUARES FIT OF DISCOUNT CURVE IN SVENSSON MODEL
+
+lambda1 = 0.02
+lambda2 = 0.1
+initial time = 1
+
+Input discount factors:
+
+      time           value      
+       1.5          0.9674      
+         2        0.939098      
+       2.5        0.914449      
+         3        0.892917      
+       3.5        0.874059      
+         4        0.857504      
+       4.5         0.84294      
+         5        0.830103      
+       5.5        0.818769      
+         6        0.808748      
+       6.5        0.799874      
+         7        0.792008      
+
+Fitted coefficients and their covariance matrix:
+
+       value                        covariance matrix
+    -2.10627        0.00295885       -0.00295897       -0.00345526       0.000103238
+     2.17626       -0.00295897        0.00295909        0.00345541      -0.000103242
+     2.51282       -0.00345526        0.00345541        0.00403509      -0.000120593
+   -0.220775       0.000103238      -0.000103242      -0.000120593        3.6119e-06
+
+chi^2 error = 2.32637e-11
+
+Fitted discount factors and their errors:
+
+    time           value             err      
+       1               1               0      
+ 1.66667        0.957523      7.72067e-07      
+ 2.33333        0.922292      1.06039e-06      
+       3        0.892917      1.60243e-06      
+ 3.66667        0.868304      1.84503e-06      
+ 4.33333        0.847595      2.1108e-06      
+       5        0.830104      2.78696e-06      
+ 5.66667        0.815287      3.3322e-06      
+ 6.33333        0.802706      3.61126e-06      
+       7        0.792016      6.97974e-06      
+
+LEAST-SQUARES FIT OF DISCOUNT CURVE TO FLOAT RATES
+
+initial time = 1
+
+interest rates
+
+   periods           rates      
+  0.142857            0.04      
+  0.285714       0.0428571      
+  0.428571       0.0457143      
+  0.571429       0.0485714      
+  0.714286       0.0514286      
+  0.857143       0.0542857      
+
+We fit with constant yield.
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+   0.0476492       4.44663e-06
+
+chi^2 error = 0.000133399
+
+Fitted discount factors and their errors:
+
+    time           value             err      
+       1               1               0      
+ 1.08658        0.995883      0.00018182      
+ 1.17316        0.991783      0.000362143      
+ 1.25974          0.9877      0.000540978      
+ 1.34632        0.983634      0.000718335      
+  1.4329        0.979584      0.000894222      
+ 1.51948        0.975551      0.00106865      
+ 1.60606        0.971535      0.00124162      
+ 1.69264        0.967535      0.00141316      
+ 1.77922        0.963552      0.00158326      
+
+FORWARD PRICES FOR EXCHANGE RATES BY LEAST-SQUARES FIT
+
+spot FX rate = 100
+initial time = 1
+
+Input discount factors:
+
+      time      domestic DF      foreign DF      
+       1.5        0.978976        0.952052      
+         2        0.959773        0.907937      
+       2.5        0.942207         0.86728      
+         3        0.926118         0.82975      
+       3.5        0.911365        0.795053      
+         4         0.89782        0.762926      
+       4.5        0.885373        0.733137      
+         5        0.873923        0.705478      
+       5.5        0.863381         0.67976      
+         6        0.853665        0.655817      
+       6.5        0.844705        0.633498      
+         7        0.836436        0.612667      
+
+We fit with constant cost-of-carry rate.
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+  -0.0539891       1.38036e-07
+
+chi^2 error = 1.82208e-05
+
+Fitted forward exchange rates and their errors:
+
+    time           value             err      
+       1             100               0      
+ 1.66667         96.4647       0.0238932      
+ 2.33333         93.0544       0.0460969      
+       3         89.7647       0.0667009      
+ 3.66667         86.5913       0.0857905      
+ 4.33333         83.5301        0.103447      
+       5         80.5771        0.119748      
+ 5.66667         77.7284        0.134767      
+ 6.33333         74.9805        0.148574      
+       7         72.3298        0.161237      
+
+LEAST-SQUARES FIT OF VOLATILITY CURVE FOR BLACK MODEL
+
+lambda = 0.05
+initial time = 1
+
+Input volatilities:
+
+      time      volatility      
+       1.5       0.0373058      
+         2       0.0398669      
+       2.5       0.0427134      
+         3       0.0458791      
+       3.5       0.0494018      
+         4       0.0533233      
+       4.5       0.0576907      
+         5       0.0625563      
+       5.5       0.0679787      
+         6       0.0740231      
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+   0.0562152       2.30437e-05
+
+chi^2 error = 0.00181903
+
+Fitted volatilities and their errors:
+
+    time           value             err      
+       1       0.0562152      0.00480039      
+ 1.55556       0.0554434      0.00473448      
+ 2.11111       0.0546892      0.00467008      
+ 2.66667       0.0539523      0.00460715      
+ 3.22222        0.053232      0.00454564      
+ 3.77778       0.0525282      0.00448554      
+ 4.33333       0.0518403       0.0044268      
+ 4.88889       0.0511679      0.00436938      
+ 5.44444       0.0505107      0.00431326      
+       6       0.0498683       0.0042584      
+

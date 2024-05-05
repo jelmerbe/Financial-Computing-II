@@ -1,0 +1,148 @@
+Session 2 by 1599585
+
+ROOT FINDING
+
+PRICE FOR A COUPON BOND
+
+yield to maturity = 0.077
+
+bond parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+issue time = 1
+initial time = 1.125
+maturity = 2.5
+
+dirty price = 0.998699
+clean price = 0.989949
+accrued interest = 0.00875
+
+DURATION FOR A COUPON BOND
+
+yield to maturity = 0.077
+
+bond parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+issue time = 1
+initial time = 1.125
+maturity = 2.5
+
+dollar duration = 1.30984
+
+YIELD TO MATURITY FOR COUPON BOND
+
+bond parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+maturity = 2.5
+price = 1.00875
+initial time = 1.125
+initial guess for YTM = 0.035
+expected yield error = 1e-10
+
+YTM = 0.0685788
+
+YIELD TO MATURITY FOR COUPON BOND WITH cfl::RootD
+
+bond parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+maturity = 2.5
+price = 1.00875
+initial time = 1.125
+initial guess for YTM = 0.035
+relative yield error = 1e-05
+absolute yield error = 1e-07
+method = secant
+
+YTM = 0.0693659
+
+INTERPOLATION OF DATA CURVES
+
+DISCOUNT CURVE BY INTERPOLATION OF YIELDS
+
+initial time = 1
+
+Input discount factors:
+
+      time           value      
+       1.5          0.9674      
+         2        0.939098      
+       2.5        0.914449      
+         3        0.892917      
+       3.5        0.874059      
+         4        0.857504      
+       4.5         0.84294      
+         5        0.830103      
+       5.5        0.818769      
+         6        0.808748      
+       6.5        0.799874      
+         7        0.792008      
+
+initial short-term rate = 0.0673981
+
+We use linear interpolation for yields
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1               1      
+ 1.66667        0.957505      
+ 2.33333        0.922264      
+       3        0.892917      
+ 3.66667        0.868255      
+ 4.33333        0.847539      
+       5        0.830103      
+ 5.66667        0.815236      
+ 6.33333        0.802656      
+       7        0.792008      
+
+DISCOUNT CURVE BY STEFFEN INTERPOLATION OF YIELDS
+
+initial time = 1
+
+Input discount factors:
+
+      time           value      
+       1.5          0.9674      
+         2        0.939098      
+       2.5        0.914449      
+         3        0.892917      
+       3.5        0.874059      
+         4        0.857504      
+       4.5         0.84294      
+         5        0.830103      
+       5.5        0.818769      
+         6        0.808748      
+       6.5        0.799874      
+         7        0.792008      
+
+initial short-term rate = 0.0673981
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1               1      
+ 1.66667        0.957394      
+ 2.33333        0.922295      
+       3        0.892917      
+ 3.66667        0.868302      
+ 4.33333         0.84759      
+       5        0.830103      
+ 5.66667        0.815292      
+ 6.33333        0.802713      
+       7        0.792008      
+

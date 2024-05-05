@@ -1,0 +1,99 @@
+Session 1 by kramkov
+
+DATA CURVES FOR FINANCIAL MODELS
+
+STATIONARY IMPLIED VOLATILITY IN BLACK MODEL
+
+sigma = 0.2
+lambda = 0.05
+initial time = 0.75
+
+VALUES VERSUS TIME:
+
+    time           value      
+    0.75             0.2      
+0.861111        0.199446      
+0.972222        0.198894      
+ 1.08333        0.198345      
+ 1.19444        0.197798      
+ 1.30556        0.197254      
+ 1.41667        0.196713      
+ 1.52778        0.196173      
+ 1.63889        0.195637      
+    1.75        0.195103      
+
+NELSON-SIEGEL YIELD CURVE
+
+c0 = 0.02
+c1 = 0.04
+c2 = 0.06
+lambda = 0.05
+initial time = 1.5
+
+VALUES VERSUS TIME:
+
+    time           value      
+     1.5            0.06      
+ 2.05556       0.0602676      
+ 2.61111       0.0605154      
+ 3.16667        0.060744      
+ 3.72222       0.0609543      
+ 4.27778       0.0611467      
+ 4.83333       0.0613221      
+ 5.38889       0.0614809      
+ 5.94444       0.0616239      
+     6.5       0.0617516      
+
+FORWARD RATES
+
+rate period = 0.25
+initial time = 1.5
+
+VALUES VERSUS TIME:
+
+    time           value      
+     1.5       0.0754496      
+ 2.05556        0.074304      
+ 2.61111       0.0731605      
+ 3.16667       0.0720204      
+ 3.72222       0.0708853      
+ 4.27778       0.0697564      
+ 4.83333       0.0686351      
+ 5.38889       0.0675228      
+ 5.94444       0.0664206      
+     6.5       0.0653299      
+
+FORWARD PRICES FOR A STOCK WITH DIVIDENDS
+
+initial time = 1
+interest rate = 0.12
+spot = 100
+
+Stock dividends:
+
+      time           value      
+       1.5               5      
+         2             5.5      
+       2.5               6      
+         3             6.5      
+       3.5               7      
+         4             7.5      
+       4.5               8      
+         5             8.5      
+       5.5               9      
+         6             9.5      
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1             100      
+ 1.55006         101.793      
+ 2.10011         103.173      
+ 2.65017         104.103      
+ 3.20022         104.549      
+ 3.75028         104.469      
+ 4.30033         103.822      
+ 4.85039         102.563      
+ 5.40044         100.642      
+  5.9505         98.0097      
+

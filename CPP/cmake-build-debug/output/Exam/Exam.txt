@@ -1,0 +1,165 @@
+Exam by 1079868
+
+DATA CURVES FOR FINANCIAL MODELS
+
+FORWARD SWAP RATES
+
+swap period = 0.25
+number of payments = 4
+initial time = 1.5
+
+VALUES VERSUS TIME:
+
+    time           value      
+     1.5       0.0746883      
+ 2.05556       0.0735439      
+ 2.61111       0.0724025      
+ 3.16667       0.0712656      
+ 3.72222       0.0701344      
+ 4.27778       0.0690104      
+ 4.83333        0.067895      
+ 5.38889       0.0667893      
+ 5.94444       0.0656946      
+     6.5        0.064612      
+
+INTERPOLATION OF DATA CURVES
+
+DISCOUNT CURVE FROM SWAP RATES BY LOG LINEAR INTERPOLATION
+
+period between payments = 0.5
+initial time = 1
+
+swap rates:
+[0] = 0.12
+[1] = 0.125
+[2] = 0.13
+[3] = 0.135
+[4] = 0.14
+[5] = 0.145
+[6] = 0.15
+[7] = 0.155
+[8] = 0.16
+[9] = 0.165
+
+VALUES VERSUS TIME:
+
+    time           value      
+   1.001        0.999883      
+ 1.50605        0.942676      
+  2.0111        0.884343      
+ 2.51615        0.825374      
+  3.0212        0.766232      
+ 3.52625        0.707349      
+  4.0313        0.649129      
+ 4.53635        0.591938      
+  5.0414        0.536106      
+ 5.54645        0.481928      
+
+OPTIONS ON A SINGLE STOCK IN BLACK MODEL
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+DOWN-AND-REBATE-OR-UP-AND-OUT OPTION IN ASSET MODEL
+
+lower barrier = 90
+upper barrier = 110
+notional = 100
+
+lower barrier times:
+[0] = 0.09
+[1] = 0.18
+[2] = 0.27
+[3] = 0.36
+[4] = 0.45
+[5] = 0.54
+[6] = 0.63
+[7] = 0.72
+[8] = 0.81
+[9] = 0.9
+
+upper barrier times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 37.09
+delta = -343
+one percent gamma = 15
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931            71.8
+ 93.0531           64.73
+ 94.7432           57.49
+  96.464           50.35
+ 98.2161            43.5
+     100           37.09
+ 101.816           31.16
+ 103.666           25.77
+ 105.549           20.91
+ 107.466           16.62
+ 109.417            12.9
+
+OPTIONS ON INTEREST RATES IN HULL AND WHITE MODEL
+
+PARAMETERS OF HULL-WHITE MODEL:
+
+interest rate = 0.07
+sigma = 0.01
+lambda = 0.02
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+FLOOR WITH DEFERRED PAYMENTS IN INTEREST RATE MODEL
+
+floor parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+RISK REPORT: 
+
+price = 0.35758
+delta = 66.3
+one percent gamma = 73
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16               0
+ 0.142               0
+ 0.124      1.0159e-08
+ 0.106      3.7475e-05
+ 0.088       0.0092926
+  0.07         0.35758
+ 0.052          2.4574
+ 0.034          5.0749
+ 0.016          7.8107
+-0.002          10.655
+ -0.02          13.611
+

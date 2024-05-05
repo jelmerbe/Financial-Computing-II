@@ -1,0 +1,173 @@
+Homework 5 by 1599585
+
+INTEREST RATE OPTIONS IN HULL-WHITE MODEL
+
+PARAMETERS OF HULL-WHITE MODEL:
+
+interest rate = 0.07
+sigma = 0.01
+lambda = 0.02
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+COLLAR IN INTEREST RATE MODEL
+
+cap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.077
+
+floor rate = 0.063
+
+RISK REPORT: 
+
+price = 0.028107
+delta = -65.7
+one percent gamma = 6.3
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16          11.107
+ 0.142          8.8288
+ 0.124          6.4907
+ 0.106          4.0912
+ 0.088          1.6717
+  0.07        0.028107
+ 0.052           -1.55
+ 0.034         -4.1233
+ 0.016         -6.8253
+-0.002         -9.5999
+ -0.02         -12.448
+
+AMERICAN SWAPTION IN INTEREST RATE MODEL
+
+exercise  times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+swap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+we pay float and receive fixed
+
+RISK REPORT: 
+
+price = 0.46988
+delta = 65.8
+one percent gamma = 55
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16               0
+ 0.142               0
+ 0.124      6.1729e-10
+ 0.106      1.7327e-05
+ 0.088        0.012362
+  0.07         0.46988
+ 0.052          2.4686
+ 0.034          5.0986
+ 0.016          7.8158
+-0.002           10.62
+ -0.02          13.525
+
+AMERICAN SWAPTION IN INTEREST RATE MODEL
+
+exercise  times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+swap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+we pay fixed and receive float
+
+RISK REPORT: 
+
+price = 0.55554
+delta = -70.5
+one percent gamma = 53
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16          11.699
+ 0.142          9.5218
+ 0.124           7.274
+ 0.106          4.9535
+ 0.088          2.5595
+  0.07         0.55554
+ 0.052        0.018353
+ 0.034      3.4284e-05
+ 0.016      1.7182e-09
+-0.002               0
+ -0.02               0
+
+PUTABLE AND CALLABLE BOND IN INTEREST RATE MODEL
+
+bond parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+redemption price for put = 0.95
+repurchase price for call = 1.05
+
+RISK REPORT: 
+
+price = 99.913
+delta = 141.5
+one percent gamma = 2.06
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16          92.962
+ 0.142           93.38
+ 0.124          93.801
+ 0.106          94.973
+ 0.088            97.4
+  0.07          99.913
+ 0.052          102.49
+ 0.034           105.1
+ 0.016          106.32
+-0.002           106.8
+ -0.02          107.28
+
+AMERICAN PUT ON FUTURES PRICE OF ZERO-COUPON BOND IN INTEREST RATE MODEL
+
+maturity of futures = 0.25
+number of futures times = 10
+maturity of bond = 0.35
+notional of bond = 100
+strike = 99.3049
+

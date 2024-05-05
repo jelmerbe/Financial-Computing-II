@@ -1,0 +1,178 @@
+ReviewExam by 1079868
+
+DATA CURVES
+
+DURATION FOR AN ANNUITY
+
+yield to maturity = 0.077
+
+annuity parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+issue time = 1
+initial time = 1.125
+maturity = 2.5
+
+dollar duration = 0.0729796
+
+INTERPOLATION OF DATA CURVES
+
+LOG LINEAR INTERPOLATION OF DISCOUNT CURVE FROM FLOAT RATES
+
+initial time = 1
+
+interest rates
+
+   periods           rates      
+  0.142857            0.04      
+  0.285714       0.0428571      
+  0.428571       0.0457143      
+  0.571429       0.0485714      
+  0.714286       0.0514286      
+  0.857143       0.0542857      
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1               1      
+ 1.09524        0.996209      
+ 1.19048        0.992175      
+ 1.28571        0.987903      
+ 1.38095        0.983152      
+ 1.47619        0.978181      
+ 1.57143        0.972994      
+ 1.66667        0.967368      
+  1.7619        0.961548      
+ 1.85714        0.955538      
+
+OPTIONS ON A SINGLE STOCK IN BLACK MODEL
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+SWING WITH PENALTY PAID AT MATURITY IN ASSET MODEL
+
+strike = 100
+maximal number of exercises = 4
+penalty = 1.5015
+maturity = 0.934335
+
+exercise times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 0
+delta = 0
+one percent gamma = 0
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931               0
+ 93.0531               0
+ 94.7432               0
+  96.464               0
+ 98.2161               0
+     100               0
+ 101.816               0
+ 103.666               0
+ 105.549               0
+ 107.466               0
+ 109.417               0
+
+INTEREST RATE OPTIONS IN HULL-WHITE MODEL
+
+PARAMETERS OF HULL-WHITE MODEL:
+
+interest rate = 0.07
+sigma = 0.01
+lambda = 0.02
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+SWAP SET IN ARREARS IN INTEREST RATE MODEL
+
+swap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+we pay float and receive fixed
+
+RISK REPORT: 
+
+price = 0
+delta = 0
+one percent gamma = 0
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16               0
+ 0.142               0
+ 0.124               0
+ 0.106               0
+ 0.088               0
+  0.07               0
+ 0.052               0
+ 0.034               0
+ 0.016               0
+-0.002               0
+ -0.02               0
+
+SWAP SET IN ARREARS IN INTEREST RATE MODEL
+
+swap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+we pay fixed and receive float
+
+RISK REPORT: 
+
+price = 0
+delta = 0
+one percent gamma = 0
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16               0
+ 0.142               0
+ 0.124               0
+ 0.106               0
+ 0.088               0
+  0.07               0
+ 0.052               0
+ 0.034               0
+ 0.016               0
+-0.002               0
+ -0.02               0
+

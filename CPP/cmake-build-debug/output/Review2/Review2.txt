@@ -1,0 +1,223 @@
+Review 2 by 1079868
+
+OPTIONS ON A SINGLE STOCK IN BLACK MODEL
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+BOOST OPTION IN ASSET MODEL
+
+notional = 100
+lower barrier = 95
+upper barrier = 110
+
+barrier times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 18.61
+delta = 38.5
+one percent gamma = -22
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           9.261
+ 93.0531           11.57
+ 94.7432           13.86
+  96.464           15.92
+ 98.2161           17.57
+     100           18.61
+ 101.816           18.94
+ 103.666           18.51
+ 105.549           17.38
+ 107.466           15.66
+ 109.417           13.56
+
+CLIQUE OPTION IN ASSET MODEL
+
+strike = 100
+maturity = 0.936198
+
+averaging times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 6.676
+delta = 56
+one percent gamma = 3
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           2.887
+ 93.0531           3.457
+ 94.7432           4.114
+  96.464           4.867
+ 98.2161            5.72
+     100           6.676
+ 101.816           7.738
+ 103.666           8.905
+ 105.549           10.18
+ 107.466           11.54
+ 109.417           13.01
+
+SIMPLE SWING OPTION WITH PENALTY IN ASSET MODEL
+
+strike = 100
+penalty = 5
+maturity = 1.01667
+exercise times:
+[0] = 0.152778
+[1] = 0.222222
+[2] = 0.291667
+[3] = 0.361111
+[4] = 0.430556
+[5] = 0.5
+[6] = 0.569444
+[7] = 0.638889
+[8] = 0.708333
+[9] = 0.777778
+[10] = 0.847222
+[11] = 0.916667
+
+RISK REPORT: 
+
+price = 8.77
+delta = 75
+one percent gamma = 3
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931            3.08
+ 93.0531           4.055
+ 94.7432            5.11
+  96.464           6.247
+ 98.2161           7.467
+     100            8.77
+ 101.816           10.16
+ 103.666           11.63
+ 105.549           13.18
+ 107.466           14.82
+ 109.417           16.53
+
+AMERICAN CHOOSER OPTION IN ASSET MODEL
+
+timeline of put and calls:
+
+exercise times           put strikes          call strikes          
+    0.152778               90.8985               111.098          
+    0.222222               98.0209               119.803          
+    0.291667               97.7689               119.495          
+    0.361111               90.3742               110.457          
+    0.430556               82.6355               100.999          
+         0.5               81.6677                99.816          
+    0.569444               88.3605               107.996          
+    0.638889               96.5607               118.019          
+    0.708333                98.729               120.669          
+    0.777778               92.8719                113.51          
+    0.847222               84.3744               103.124          
+    0.916667                81.049               99.0599          
+
+maturity = 1.01667
+
+RISK REPORT: 
+
+price = 23.36
+delta = 82
+one percent gamma = 3
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           17.44
+ 93.0531           18.34
+ 94.7432            19.4
+  96.464           20.61
+ 98.2161           21.94
+     100           23.36
+ 101.816           24.88
+ 103.666           26.46
+ 105.549            28.1
+ 107.466            29.8
+ 109.417           31.54
+
+UP-RANGE-OUT PUT OPTION IN ASSET MODEL
+
+strike = 100
+maturity = 1
+upper barrier = 102
+number of barrier events needed to cancel put = 4
+
+barrier times:
+[0] = 0.09
+[1] = 0.18
+[2] = 0.27
+[3] = 0.36
+[4] = 0.45
+[5] = 0.54
+[6] = 0.63
+[7] = 0.72
+[8] = 0.81
+[9] = 0.9
+
+RISK REPORT: 
+
+price = 4.547
+delta = -39.7
+one percent gamma = 1.4
+
+OPTION VALUES VERSUS SPOT:
+
+    spot          option
+ 91.3931           8.585
+ 93.0531           7.713
+ 94.7432           6.871
+  96.464            6.06
+ 98.2161           5.284
+     100           4.547
+ 101.816           3.858
+ 103.666           3.223
+ 105.549            2.65
+ 107.466           2.143
+ 109.417           1.706
+
+STRIKE OF VARIANCE SWAP IN ASSET MODEL
+
+maturity = 1
+number of variance times = 12
+

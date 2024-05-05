@@ -1,0 +1,272 @@
+Review 1 by 1079868
+
+DATA CURVES FOR FINANCIAL MODELS
+
+YIELD CURVE IN VASICEK MODEL
+
+theta = 0.02
+lambda = 0.05
+sigma = 0.01
+r_0 = 0.04
+initial time = 1.5
+
+VALUES VERSUS TIME:
+
+    time           value      
+     1.5            0.04      
+ 2.05556        0.044949      
+ 2.61111       0.0497976      
+ 3.16667       0.0545484      
+ 3.72222       0.0592036      
+ 4.27778       0.0637657      
+ 4.83333       0.0682368      
+ 5.38889       0.0726192      
+ 5.94444        0.076915      
+     6.5       0.0811262      
+
+FORWARD PRICES FOR AN ANNUITY
+
+interest rate = 0.07
+initial time = 1
+
+annuity parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+clean prices:
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1       0.0988059      
+ 1.15152       0.0892533      
+ 1.30303       0.0796469      
+ 1.45455       0.0699297      
+ 1.60606       0.0600915      
+ 1.75758        0.050196      
+ 1.90909       0.0401309      
+ 2.06061        0.029997      
+ 2.21212       0.0197561      
+ 2.36364       0.0093792      
+
+dirty prices:
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1       0.0988059      
+ 1.15152       0.0998594      
+ 1.30303        0.083359      
+ 1.45455       0.0842479      
+ 1.60606       0.0675157      
+ 1.75758       0.0507264      
+ 1.90909       0.0512672      
+ 2.06061       0.0342395      
+ 2.21212       0.0346045      
+ 2.36364       0.0173337      
+
+ROOT FINDING
+
+YIELD TO MATURITY FOR AN ANNUITY WITH cfl::RootD
+
+annuity parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+maturity = 2.5
+price = 0.0954545
+initial time = 1
+initial guess for YTM = 0
+relative yield error = 1e-05
+absolute yield error = 1e-07
+method = secant
+
+YTM = 0.11019
+
+FORWARD YIELD TO MATURITY FOR AN ANNUITY WITH cfl::RootD
+
+annuity parameters:
+notional = 1
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+initial time = 1
+relative yield error = 1e-05
+absolute yield error = 1e-07
+method = secant
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1       0.0578342      
+ 1.15152       0.0556868      
+ 1.30303       0.0535807      
+ 1.45455       0.0516352      
+ 1.60606       0.0498365      
+ 1.75758       0.0480365      
+ 1.90909       0.0465162      
+ 2.06061       0.0449624      
+ 2.21212       0.0435431      
+ 2.36364       0.0423077      
+
+INTERPOLATION OF DATA CURVES
+
+LOG LINEAR INTERPOLATION OF FORWARD CURVE
+
+spot = 100
+initial time = 1
+
+Input forward prices:
+
+      time           value      
+       1.5          103.37      
+         2         106.485      
+       2.5         109.355      
+         3         111.992      
+       3.5         114.409      
+         4         116.617      
+       4.5         118.632      
+         5         120.467      
+       5.5         122.135      
+         6         123.648      
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1             100      
+ 1.55556         103.711      
+ 2.11111         107.116      
+ 2.66667         110.227      
+ 3.22222          113.06      
+ 3.77778         115.631      
+ 4.33333         117.957      
+ 4.88889         120.057      
+ 5.44444         121.948      
+       6         123.648      
+
+FORWARD EXCHANGE CURVE BY LINEAR INTERPOLATION OF COST-OF-CARRY RATES
+
+spot FX rate = 100
+initial time = 1
+
+Input discount factors:
+
+      time      domestic DF      foreign DF      
+       1.5        0.978976        0.952052      
+         2        0.959773        0.907937      
+       2.5        0.942207         0.86728      
+         3        0.926118         0.82975      
+       3.5        0.911365        0.795053      
+         4         0.89782        0.762926      
+       4.5        0.885373        0.733137      
+         5        0.873923        0.705478      
+       5.5        0.863381         0.67976      
+         6        0.853665        0.655817      
+       6.5        0.844705        0.633498      
+         7        0.836436        0.612667      
+
+VALUES VERSUS TIME:
+
+    time           value      
+       1             100      
+ 1.66667         96.3554      
+ 2.33333         92.8876      
+       3         89.5944      
+ 3.66667         86.4736      
+ 4.33333         83.5192      
+       5         80.7254      
+ 5.66667         78.0874      
+ 6.33333          75.597      
+       7         73.2474      
+
+FITTING OF DATA CURVES
+
+LEAST-SQUARES FIT OF FORWARD CURVE IN 2-FACTOR BLACK MODEL
+
+lambda1 = 0.05
+sigma0 = 0.1
+sigma1 = 0.2
+spot = 100
+initial time = 0
+
+Input forward prices:
+
+      time           value      
+       0.5          103.37      
+         1         106.485      
+       1.5         109.355      
+         2         111.992      
+       2.5         114.409      
+         3         116.617      
+       3.5         118.632      
+         4         120.467      
+       4.5         122.135      
+         5         123.648      
+
+Fitted coefficients and their covariance matrix:
+
+       value            covariance matrix
+   -0.151026       2.37577e-05      -2.53761e-05
+    0.194376      -2.53761e-05       2.71382e-05
+
+chi^2 error = 2.3368e-06
+
+Fitted forward prices and their errors:
+
+    time           value             err      
+       0             100               0      
+0.555556         103.685       0.0182392      
+ 1.11111         107.129       0.0309703      
+ 1.66667         110.314       0.0391579      
+ 2.22222          113.22       0.0455121      
+ 2.77778         115.835       0.0550432      
+ 3.33333         118.146       0.0731487      
+ 3.88889         120.144        0.102324      
+ 4.44444         121.823        0.142435      
+       5         123.181        0.192614      
+
+DISCOUNT CURVE OBTAINED FROM SWAP RATES BY LEAST-SQUARES FIT
+
+period between payments = 0.0833333
+initial time = 1
+
+swap rates:
+[0] = 0.12
+[1] = 0.125
+[2] = 0.13
+[3] = 0.135
+[4] = 0.14
+[5] = 0.145
+[6] = 0.15
+[7] = 0.155
+[8] = 0.16
+[9] = 0.165
+
+We fit with constant yield.
+
+Fitted coefficients and their covariance matrix:
+
+       value      covariance matrix
+     0.14206       2.35429e-05
+
+chi^2 error = 0.00211886
+
+Fitted discount factors and their errors:
+
+    time           value             err      
+   1.001        0.999858      4.85141e-06      
+ 1.08518        0.987973      0.000408308      
+ 1.16935        0.976229      0.000802172      
+ 1.25353        0.964625      0.00118661      
+  1.3377        0.953159       0.0015618      
+ 1.42188        0.941829      0.00192791      
+ 1.50605        0.930634      0.00228509      
+ 1.59023        0.919572       0.0026335      
+  1.6744        0.908641      0.00297331      
+ 1.75858         0.89784      0.00330467      
+

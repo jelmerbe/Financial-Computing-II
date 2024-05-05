@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S "/Users/jelmerbennema/Documents/Oxford/MSc/Hilary/Financial Computing II/FC/CPP" -B "/Users/jelmerbennema/Documents/Oxford/MSc/Hilary/Financial Computing II/FC/CPP/cmake-build-debug"
+PROGRAMS AND LIBRARIES:
+CMake program: /Applications/CLion.app/Contents/bin/ninja/mac/ninja
+C++ compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+Doxygen: /opt/homebrew/bin/doxygen
+Doxygen dot: /opt/homebrew/bin/dot
+pkg-config: /opt/homebrew/bin/pkg-config
+GSL include dir: /opt/homebrew/Cellar/gsl/2.7.1/include
+GSL library: /opt/homebrew/Cellar/gsl/2.7.1/lib/libgsl.dylib
+BLAS library: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libcblas.tbd
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/jelmerbennema/Documents/Oxford/MSc/Hilary/Financial Computing II/FC/CPP/cmake-build-debug

@@ -1,0 +1,112 @@
+Session 5 by 1079868
+
+INTEREST RATE OPTIONS IN HULL-WHITE MODEL
+
+PARAMETERS OF HULL-WHITE MODEL:
+
+interest rate = 0.07
+sigma = 0.01
+lambda = 0.02
+initial time = 0
+
+step quality = 200
+width quality = 100
+
+FLOOR IN INTEREST RATE MODEL
+
+floor parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.063
+
+RISK REPORT: 
+
+price = 0.10425
+delta = 30.12
+one percent gamma = 42
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16               0
+ 0.142               0
+ 0.124      1.2046e-10
+ 0.106      2.1116e-06
+ 0.088       0.0013696
+  0.07         0.10425
+ 0.052          1.5521
+ 0.034          4.1233
+ 0.016          6.8253
+-0.002          9.5999
+ -0.02          12.448
+
+PUT ON FORWARD RATE AGREEMENT IN INTEREST RATE MODEL
+
+maturity = 1
+fixed rate = 0.07
+period for FRA = 0.25
+notional = 100
+
+RISK REPORT: 
+
+price = 0.10055
+delta = -11.71
+one percent gamma = 7.9
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16          1.8685
+ 0.142          1.5276
+ 0.124          1.1722
+ 0.106         0.80178
+ 0.088         0.41865
+  0.07         0.10055
+ 0.052       0.0038761
+ 0.034       5.134e-07
+ 0.016         1.3e-09
+-0.002               0
+ -0.02               0
+
+CAP ON SWAP RATE IN INTEREST RATE MODEL
+
+cap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.077
+
+swap period = 0.5
+number of swap payments = 12
+
+RISK REPORT: 
+
+price = 0.14587
+delta = -37.26
+one percent gamma = 49
+
+OPTION VALUES VERSUS SHORT RATE:
+
+  rate          option
+  0.16          10.968
+ 0.142          8.7089
+ 0.124          6.4045
+ 0.106          4.0542
+ 0.088          1.6947
+  0.07         0.14587
+ 0.052       0.0024669
+ 0.034      5.4659e-06
+ 0.016      5.6041e-10
+-0.002               0
+ -0.02               0
+
+CANCELLABLE SWAP SET IN ARREARS IN INTEREST RATE MODEL
+
+swap parameters:
+notional = 100
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+we pay float and receive fixed
+
